@@ -5,6 +5,8 @@ screen=cursers.initscr()
 cursers.noecho()
 cursers.cbreak()
 screen.keypad(True)
+IO.setmode(IO.BOARD)
+io.setup()
 
 try:
     while True:
